@@ -12,6 +12,8 @@ function AddTodo(props) {
     else{
       props.addTodoList(title, desc);
     }
+    setTitle("");
+    setDesc("");
   }
   return (
     <div className="container my-3">

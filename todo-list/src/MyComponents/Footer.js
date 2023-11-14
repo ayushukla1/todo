@@ -3,8 +3,10 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
-      <p>This is the footer of my app.</p>
+    <footer className='bg-dark text-light py-3'>
+      <p className='text-center'>
+        Made with ❤️Copyright &copy; MyTodosList.com
+      </p>
     </footer>
   );
 }
