@@ -9,13 +9,13 @@ function Todos(props) {
   }
   return (
     <div className='container' style={mystyle}>
-      <h3 className='text-center my-3'>Todos List</h3>
+      <h3 className='text-center my-3 w-100'>Todos List</h3>
       {
-        props.todos.length===0? "Hurrah! No Work to do.":
-        props.todos.map((todo) => {
-          return <TodoItem todo = {todo} key={todo.sno} onDelete={props.onDelete}/>
-        })
-      } 
+        props.todos.length === 0 ? "Hurrah! No Work to do." :
+          props.todos.map((todo) => {
+            return <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete} />
+          })
+      }
     </div>
   );
 }
