@@ -8,7 +8,7 @@ function Todos(props) {
     margin: "40px auto"
   }
   return (
-    <div className='container' style={mystyle}>
+    <div className='container w-75' style={mystyle}>
       <h3 className='text-center my-3 w-100'>Todos List</h3>
       {
         props.todos.length === 0 ? "Hurrah! No Work to do." :

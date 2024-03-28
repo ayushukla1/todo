@@ -2,7 +2,7 @@ import React from "react";
 
 function TodoItem({ todo, onDelete }) {
   return (
-    <div className="w-100 mx-auto">
+    <div className="w-75 mx-auto">
       <div className="d-flex justify-content-between">
         <div>
           <h4>{todo.title}</h4>
